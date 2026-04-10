@@ -1,0 +1,81 @@
+Spécifications Techniques : Langage Algo Fac
+1. Structure Générale d'un Programme
+Tout fichier doit suivre l'architecture suivante :
+
+ALGORITHME [Nom_du_programme]
+
+VARIABLE (Déclaration des variables et tableaux)
+
+DEBUT
+
+(Corps du programme)
+
+FIN
+
+2. Mots-clés Réservés
+
+Structure : ALGORITHME, VARIABLE, DEBUT, FIN
+
+Entrées/Sorties : LIRE, ECRIRE
+
+Conditions : SI, ALORS, SINON, FINSI
+
+Boucles : POUR, A, FAIRE, FINPOUR, TANTQUE, FINTANTQUE
+
+Sous-programmes : FONCTION, FINFONCTION, PROCEDURE, FINPROCEDURE, RETOURNE
+
+3. Opérateurs et Syntaxe
+
+Affectation : <-
+
+Comparaison : == (Égal), <> (Différent), <, >, <=, >=
+
+Arithmétique : +, -, *, /
+
+Commentaires : Utilisent le double slash // (Ignorés par l'interpréteur)
+
+4. Structures de Contrôle
+
+Conditionnelle :
+SI [condition] ALORS
+[instructions]
+SINON
+[instructions]
+FINSI
+
+Boucle Pour :
+POUR [variable] <- [début] A [fin] FAIRE
+[instructions]
+FINPOUR
+
+Boucle Tant Que :
+TANTQUE [condition] FAIRE
+[instructions]
+FINTANTQUE
+
+5. Fonctions et Procédures
+
+Fonction :
+FONCTION Nom
+DEBUT
+[instructions]
+RETOURNE [valeur]
+FINFONCTION
+
+Procédure :
+PROCEDURE Nom
+DEBUT
+[instructions]
+FINPROCEDURE
+
+6. Gestion des Tableaux
+
+Accès et affectation : Tableau[index]
+
+Lecture : LIRE(Tableau[index])
+
+Affichage : ECRIRE(Tableau[index])
+
+7. Extension de Fichier
+
+Les scripts doivent porter l'extension : .algo
